@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    max-width: 969px;
+}
+
+#img-main {
+    width: 969px;
+}
+
+#content {
+    display: flex;
+}
+.recipe {
+    max-width: 600px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+ul li {
+    display: flex;
+    
+}
+
+ul li input {
+    margin-right: 17px;
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+ol li {
+    display: flex;
+    gap: 15px;
+}
